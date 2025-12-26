@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* default theme */
+    :root {
+        /*
+        - gray/natural colors for texts, borders and disabled elements.
+        - If required we can use as background too.
+      */
+        /* For rgb(255 255 255 / <alpha-value>) = #ffffff */
+        --gray-0: 255 255 255;
+        /* For rgb(250 250 250 / <alpha-value>) = #fafafa */
+        --gray-50: 250 250 250;
+        /* For rgb(241 241 241 / <alpha-value>) = #f1f1f1 */
+        --gray-100: 241 241 241;
+        /* For rgb(227 227 227 / <alpha-value>) = #e3e3e3 */
+        --gray-200: 227 227 227;
+        /* For rgb(223 223 223 / <alpha-value>) = #dfdfdf */
+        --gray-300: 223 223 223;
+        /* For rgb(146 146 146 / <alpha-value>) = #929292 */
+        --gray-400: 146 146 146;
+        /* For rgb(102 102 102 / <alpha-value>) = #666666 */
+        --gray-500: 102 102 102;
+        /* For rgb(72 72 72 / <alpha-value>) = #484848 */
+        --gray-600: 72 72 72;
+        /* For rgb(51 51 51 / <alpha-value>) = #333333 */
+        --gray-700: 51 51 51;
+        /* For rgb(34 34 34 / <alpha-value>) = #222222 */
+        --gray-800: 34 34 34;
+        /* For rgb(17 17 17 / <alpha-value>) = #111111 */
+        --gray-900: 17 17 17;
+        /* For rgb(0 0 0 / <alpha-value>) = #000000 */
+        --gray-1000: 0 0 0;
+
+        /* body style */
+        --background: 255 255 255; /* #ffffff */
+        --foreground: 72 72 72; /* #484848 */
+        --muted: 227 227 227; /* #e3e3e3 */
+        --muted-foreground: 146 146 146; /* #929292 */
+
+        /* ----------------------------------- */
+        /* primary/brand colors */
+        /* ----------------------------------- */
+        --primary-lighter: 132 236 121; /* #e3e3e3 */
+        --primary-default: 0 166 82;
+        --primary-foreground: 255 255 255; /* #ffffff */
+        --primary-background: 241 249 236; /* #ffffff */
+
+        /* ----------------------------------- */
+        /* secondary colors */
+        /* ----------------------------------- */
+        --secondary-lighter: 231 246 237; /* #dde3ff */
+        --secondary-default: 193 39 47; /* #4e36f5 */
+        --secondary-foreground: 255 255 255; /* #ffffff */
+        --secondary-background: 31 34 39;
+        --secondary-background-lighter: 53 56 60;
+
+        /* ----------------------------------- */
+        /* red/error colors */
+        /* ----------------------------------- */
+        --red-lighter: 247 212 214; /* #f7d4d6 */
+        --red-default: 238 0 0; /* #e00 */
+        --red-dark: 197 0 0; /* #c50000 */
+
+        /* ----------------------------------- */
+        /* orange/warning colors */
+        /* ----------------------------------- */
+        --orange-lighter: 255 239 207; /* #ffefcf */
+        --orange-default: 245 166 35; /* #f5a623 */
+        --orange-dark: 171 87 10; /* #ab570a */
+
+        /* ----------------------------------- */
+        /* blue/info colors */
+        /* ----------------------------------- */
+        --blue-lighter: 211 229 255; /* #d3e5ff */
+        --blue-default: 0 112 243; /* #0070f3 */
+        --blue-dark: 7 97 209; /* #0761d1 */
+
+        /* ----------------------------------- */
+        /* green/success colors */
+        /* ----------------------------------- */
+        --green-lighter: 185 249 207; /* #b9f9cf */
+        --green-default: 17 168 73; /* #11a849 */
+        --green-dark: 17 132 60; /* #11843c */
+    }
+
+    /* base style */
+    html {
+        @apply h-full antialiased;
+        font-family: "Poppins", sans-serif;
+    }
+
+    #player {
+        @apply dark:bg-gray-50;
+    }
+
+    body {
+        @apply flex min-h-full flex-col overflow-x-hidden text-sm text-gray-600 dark:bg-gray-50;
+    }
+}
+
+.stretched-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+}
+
+/* Navbar */
+.navbar .nav-item {
+    @apply text-base text-gray-600 font-medium tracking-wider hover:text-primary focus:outline-none focus:text-gray-400;
+}
+
+/* Footer  */
+.footer .footer-links {
+    @apply flex flex-col gap-4 mt-3;
+}
+.footer .footer-links a {
+    @apply text-gray-300;
+}
+.footer .social a {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    @apply border border-gray-400 flex items-center justify-center hover:bg-secondary-bglighter;
+    color: white;
+}
+
+/* Dashboard  */
+.pgline {
+    position: relative;
+}
+.pgline::before {
+    content: "";
+    background-color: rgb(243 244 246 / 1);
+    width: 0.125rem;
+    height: 100%;
+    top: 0;
+    inset-inline-start: 18px;
+    position: absolute;
+}
+
+/* Buttons  */
+.g-button-primary {
+    background: linear-gradient(180deg, #00a44e 0%, #7cc242 100%);
+    flex-grow: 0;
+}
+.g-button-secondary {
+    background: linear-gradient(180deg, #f11330 0%, #c0272e 100%);
+}
+
+/* Banner  */
+.banner {
+    /* background: linear-gradient(180deg, #7cc242 0%, #00a44e 100%); */
+    background: rgb(0, 166, 82);
+}
+
+/* Search page  */
+
+.search-box .search-d-transform {
+    transform: translate3d(2.5rem, 0.2px, 0px) !important;
+}
+.search-box .search-t-transform {
+    transform: translate3d(19rem, 0.2px, 0px) !important;
+}
+
+.search-box .traveller-drop {
+    position: absolute !important;
+    z-index: 9999;
+    top: 3.125rem !important;
+    left: -16px !important;
+    transform: none !important;
+}
+.search-inner-wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.innercol {
+    @apply flex flex-col cursor-pointer py-1 px-5 h-full w-full;
+}
+.sf-card {
+    position: relative;
+    background-image: linear-gradient(to right, #269215, #84ec79);
+    /* background: rgb(0, 166, 82); */
+}
+.swipesector {
+    @apply rounded-full flex items-center justify-center z-10 border shadow-md;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-left: -15px;
+    cursor: pointer;
+    background: url(/images/icons/swap_icon.svg) no-repeat;
+    background-size: 15px 15px;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-color: white;
+}
+.r-swipesector {
+    @apply rounded-full flex items-center justify-center z-10 border shadow-md;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-left: -15px;
+    cursor: pointer;
+    background: url(/images/icons/swap_icon.svg) no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    transition: all 0.5s ease;
+    background-color: white;
+}
+.depdate_col {
+    width: 190px;
+}
+.search-col {
+    width: 170px;
+}
+
+.search-box {
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}
+.r-search-box {
+    @media (min-width: 1000px) {
+        display: none;
+    }
+}
+.banner-slider {
+    @media (max-width: 1000px) {
+        display: none !important;
+    }
+}
+
+.r-search-box .r-travellers .travellers-count button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.r-search-box .r-class select::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* search result page  */
+
+.filters-tab .filter-class-drop {
+    position: absolute !important;
+}
+.detail-list {
+    @apply flex flex-col gap-4;
+}
+.domestic-detail-list {
+    @apply h-[420px] overflow-hidden overflow-y-scroll   [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-primary [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full;
+}
+.detail-wrap {
+    @apply shadow-sm py-4 bg-secondary-lighter;
+}
+.detail-wrap .logo-sec {
+    @apply flex flex-col gap-2 items-start;
+}
+.detail-wrap .logo-sec img {
+    width: 85px;
+    height: auto;
+    object-fit: contain;
+}
+.detail-wrap .logo-sec .title {
+    @apply block capitalize font-bold text-xs text-gray-400;
+}
+.detail-wrap .airport-part {
+    @apply flex text-center items-center h-full;
+}
+.detail-wrap .airport-part .airport-name .city-name {
+    @apply text-2xl font-semibold text-primary capitalize text-start;
+}
+.detail-wrap .airport-part .airport-name .date {
+    @apply text-xs font-medium text-gray-400 text-start py-1;
+}
+.detail-wrap .airport-part .airport-name .time {
+    @apply text-base font-semibold  text-start text-gray-400;
+}
+.detail-wrap .airport-part .arrival {
+    @apply ml-auto;
+}
+.detail-wrap .airport-part .airport-progress {
+    @apply w-full px-6 relative;
+}
+.detail-wrap .airport-part .airport-progress .stop-time {
+    @apply absolute left-2/4 -translate-x-2/4 -top-5 w-full text-gray-400 font-medium;
+    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+}
+.detail-wrap .airport-part .airport-progress .stop {
+    @apply absolute left-2/4 -translate-x-2/4 top-3 w-full text-gray-400 font-medium;
+    font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (1920 - 320)));
+}
+.detail-wrap .airport-part .airport-progress i {
+    font-size: 8px;
+    z-index: 2;
+    position: relative;
+}
+.detail-wrap .airport-part .airport-progress::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    z-index: 1;
+    /* background-color: #cecece; */
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='1' stroke-dasharray='13%2c 5' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+}
+.detail-wrap .airport-part .airport-progress-drop {
+    @apply w-full px-6 relative;
+}
+.detail-wrap .airport-part .airport-progress-drop i {
+    font-size: 12px;
+    z-index: 2;
+    position: relative;
+}
+.detail-wrap .airport-part .airport-progress-drop::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    z-index: 1;
+    /* background-color: #cecece; */
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='1' stroke-dasharray='13%2c 5' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+}
+.detail-wrap .price {
+    @apply flex items-center justify-center w-full h-full text-center;
+}
+.detail-wrap .cost {
+    @apply font-semibold mb-1;
+    font-size: calc(24px + (26 - 24) * ((100vw - 320px) / (1920 - 320)));
+}
+.detail-wrap .status {
+    @apply text-gray-400 capitalize font-medium;
+    font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (1920 - 320)));
+}
+.detail-wrap .book-flight button {
+    @apply py-2 px-3 w-full inline-flex justify-center items-center gap-x-2 text-sm tracking-wide font-medium rounded-lg text-white hover:bg-secondary focus:outline-none focus:bg-secondary disabled:opacity-50 disabled:pointer-events-none;
+}
+.detail-wrap .flight-details button {
+    @apply py-2 px-3 mt-1 w-full inline-flex justify-center items-center gap-x-2 text-sm tracking-wide font-medium rounded-lg text-white hover:bg-secondary focus:outline-none focus:bg-secondary disabled:opacity-50 disabled:pointer-events-none;
+}
+.detail-wrap .detail-flights {
+    @apply rounded-md overflow-hidden;
+}
+.detail-wrap .detail-flights .detail-flights-head {
+    background: linear-gradient(180deg, #7cc242 0%, #00a44e 100%);
+    @apply w-full px-4 py-3 flex items-center justify-center gap-2 text-base;
+}
+.detail-wrap .detail-flights .detail-flights-head .place {
+    @apply text-white text-base font-bold tracking-wider;
+}
+.detail-wrap .detail-flights .detail-flights-body {
+    @apply w-full px-4 py-4 bg-white;
+}
+.detail-wrap .flights-drop-table table thead {
+    background: linear-gradient(180deg, #7cc242 0%, #00a44e 100%);
+}
+.detail-wrap .flights-drop-table table thead th {
+    @apply px-6 py-3 text-start text-sm tracking-wider font-medium text-white uppercase;
+}
+.detail-wrap .flights-drop-table table tbody {
+    background: white;
+}
+
+/* Responsive Flights Results  */
+
+/* Travellers Details Page  */
+.flight-details-accordion .traveller-flights {
+    @apply flex text-center items-center h-full;
+}
+.flight-details-accordion .traveller-flights .airport-progress {
+    @apply w-full px-6 relative;
+}
+.flight-details-accordion .traveller-flights .airport-progress::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    z-index: 1;
+    /* background-color: #cecece; */
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='1' stroke-dasharray='13%2c 5' stroke-dashoffset='15' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+/* User Dashboard  */
+
+.user-dash .profile img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+.user-dash .r-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-dash .user-dash-nav .dash-nav-item a {
+    @apply text-gray-500;
+}
+.user-dash .user-dash-nav .dash-nav-item .active {
+    @apply text-primary;
+}
+
+/* Day Tracker Slider  */
+.slick-track {
+    padding: 2px 0;
+}
+.slick-slide {
+    margin: 0 8px;
+}
+
+.slick-list {
+    margin: 0 -8px;
+}
+
+.ui-datepicker {
+    z-index: 9999 !important;
+}
+
+.filters-tab .hs-accordion-group .active .hs-accordion-content {
+    overflow: visible !important;
+}
+
+.detail-flight-duration::before {
+    content: url(/images/icons/flight-takeoff.svg);
+    position: absolute;
+    left: -26px;
+    bottom: -13px;
+}
+.detail-flight-duration::after {
+    content: url(/images/icons/flight-land.svg);
+    position: absolute;
+    right: -26px;
+    bottom: -13px;
+}
+
+.tt-menu,
+.tt-dataset {
+    width: 100%;
+}
+
+.tt-dropdown-menu {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.ui-datepicker-month,
+.ui-datepicker-year {
+    padding-right: 1rem !important;
+}
+
+.flight-search-suggestion {
+    @apply flex items-center justify-between py-2;
+}
+
+@media (max-width: 768px) {
+    .round-book-large {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) {
+    .round-book-small {
+        display: none !important;
+    }
+}
+
+.banner-slider .slick-track {
+    padding-top: 0 !important;
+}
+
+.about-description ul {
+    padding-left: 16px;
+    list-style-type: disc;
+}
+
+@media (min-width: 1500px) {
+    footer .footer {
+        @apply mt-12;
+    }
+}

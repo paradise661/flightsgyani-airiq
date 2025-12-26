@@ -1,0 +1,162 @@
+{
+    "Trackid": "AQ121349770041412781213572903224LR52B8YLUMP",
+    "ItineraryFlightList": [
+        {
+            "Items": [
+                {
+                    "FlightDetails": [
+                        {
+                            "FlightID": "2971",
+                            "Stock": "TBO",
+                            "FlightNumber": "SG 8106",
+                            "Origin": "MAA",
+                            "Destination": "DEL",
+                            "DepartureTerminal": "1",
+                            "ArrivalTerminal": "3",
+                            "DepartureDateTime": "20 Oct 2023 19:55",
+                            "ArrivalDateTime": "20 Oct 2023 23:10",
+                            "Class": "V",
+                            "JourneyTime": "195",
+                            "ReferenceToken": "pV9+Uk8VAvsXlPnMgYoGJu38+8Nd+ruRfaDHag2zKtAnOezmfp1kK5d6xsdRdGQOszt5+0P+40bv3erfzKOPMDTNdR8ddXMTjda46s3PApxLcSbH4GeuuwQsZy2X9Cx4",
+                            "SegRef": "0",
+                            "ItinRef": "0",
+                            "ConnectionFlag": "N",
+                            "FareId": "TBO_N_0",
+                            "Cabin": "E",
+                            "FareBasisCode": "VSAV",
+                            "Stops": "0",
+                            "Via": "",
+                            "AirlineCategory": "LCC",
+                            "CNX": "N",
+                            "PlatingCarrier": "SG",
+                            "OperatingCarrier": "SG",
+                            "SegmentDetails": "Boeing 737\r\nJourney Time : 195\r\nStart Terminal : 1\r\nEndTerminal : 3\r\nBaggage : 15 KG",
+                            "FlyingTime": "195",
+                            "OfflineIndicator": false,
+                            "MultiClass": "0",
+                            "AllowFQT": false,
+                            "AvailSeat": "1",
+                            "PromoCode": "",
+                            "PromoCodeDesc": "",
+                            "FareTypeDescription": "",
+                            "FareDescription": "",
+                            "FareRuleInfo": "",
+                            "Refundable": "True",
+                            "Baggage": "15 KG"
+                        }
+                    ],
+                    "Fares": [
+                        {
+                            "Currency": "INR",
+                            "FareType": "N",
+                            "Faredescription": [
+                                {
+                                    "Paxtype": "ADT",
+                                    "BaseAmount": "4158.31",
+                                    "TotalTaxAmount": "593.45",
+                                    "GrossAmount": "4751.76",
+                                    "Commission": "0.00",
+                                    "Incentive": "0.00",
+                                    "Servicecharge": "0.00",
+                                    "TDS": "0.00",
+                                    "Discount": "0.00",
+                                    "PLBAmount": "0.00",
+                                    "SF": "0.00",
+                                    "SFGST": "0.00",
+                                    "Taxes": [
+                                        {
+                                            "Amount": "593.45",
+                                            "Code": "TAX"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "FlightId": "TBO_N_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Items": [
+                {
+                    "FlightDetails": [
+                        {
+                            "FlightID": "3182",
+                            "Stock": "6E",
+                            "FlightNumber": "6E 2059",
+                            "Origin": "DEL",
+                            "Destination": "MAA",
+                            "DepartureTerminal": "2",
+                            "ArrivalTerminal": "1",
+                            "DepartureDateTime": "25 Oct 2023 07:10",
+                            "ArrivalDateTime": "25 Oct 2023 10:00",
+                            "Class": "R",
+                            "JourneyTime": "170",
+                            "ReferenceToken": "fy8aBmsKT/tJpcqfgnYB5XIZ1J4ovntNCOgcoWEdvN/cmVnKz9ubCtbiY3mhkAppVgliO7cR9qw4VWK73U8mLZSNMXmmiTMDwbeEBDoBD/wDdJYWu8EJSGna3/sorRr+j7nSDZxK3lLizc/aYbdZFo5Lzn6NKWKcHGgEYrawfjCGUj7sHaYZNiXmQn4SSLlA",
+                            "SegRef": "1",
+                            "ItinRef": "1",
+                            "ConnectionFlag": "N",
+                            "FareId": "6E_N_0",
+                            "Cabin": "E",
+                            "FareBasisCode": "R0IP",
+                            "Stops": "0",
+                            "Via": "",
+                            "AirlineCategory": "LCC",
+                            "CNX": "N",
+                            "PlatingCarrier": "6E",
+                            "OperatingCarrier": "6E",
+                            "SegmentDetails": "Airbus A321\r\nJourney Time : 170\r\nStart Terminal : 2\r\nEndTerminal : 1\r\nBaggage : 15 KG",
+                            "FlyingTime": "170",
+                            "OfflineIndicator": false,
+                            "MultiClass": "0",
+                            "AllowFQT": false,
+                            "AvailSeat": "3",
+                            "PromoCode": "",
+                            "PromoCodeDesc": "",
+                            "FareTypeDescription": "N",
+                            "FareDescription": "Normal",
+                            "FareRuleInfo": "",
+                            "Refundable": "True",
+                            "Baggage": "15 KG"
+                        }
+                    ],
+                    "Fares": [
+                        {
+                            "Currency": "INR",
+                            "FareType": "N",
+                            "Faredescription": [
+                                {
+                                    "Paxtype": "ADT",
+                                    "BaseAmount": "1000.00",
+                                    "TotalTaxAmount": "580",
+                                    "GrossAmount": "1580",
+                                    "Commission": "0.00",
+                                    "Incentive": "0.00",
+                                    "Servicecharge": "0.00",
+                                    "TDS": "0.00",
+                                    "Discount": "0.00",
+                                    "PLBAmount": "0.00",
+                                    "SF": "0.00",
+                                    "SFGST": "0.00",
+                                    "Taxes": [
+                                        {
+                                            "Amount": "580.00",
+                                            "Code": "TAX"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "FlightId": "6E_N_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Status": {
+        "Error": "",
+        "ResultCode": "1",
+        "SequenceID": "12134977004141278"
+    }
+}

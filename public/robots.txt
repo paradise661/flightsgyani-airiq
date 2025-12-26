@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /products/
+Disallow: /index.php?products=
+Sitemap: https://flightsgyani.com/sitemap.xml

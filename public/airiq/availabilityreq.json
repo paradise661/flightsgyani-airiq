@@ -1,0 +1,25 @@
+{
+    "TripType": "O",
+    "AirlineID": "6E",
+    "AgentInfo": {
+        "AgentId": "AQAG052921",
+        "UserName": "9857015300",
+        "AppType": "API",
+        "Version": "V1.0"
+    },
+    "AvailInfo": [
+        {
+            "DepartureStation": "KTM",
+            "ArrivalStation": "DEL",
+            "FlightDate": "20250827",
+            "FarecabinOption": "E",
+            "FareType": "",
+            "OnlyDirectFlight": false
+        }
+    ],
+    "PassengersInfo": {
+        "AdultCount": "1",
+        "ChildCount": 0,
+        "InfantCount": 0
+    }
+}

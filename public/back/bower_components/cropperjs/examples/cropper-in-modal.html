@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Cropper.js</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../dist/cropper.css" rel="stylesheet">
+  <style>
+    .img-container img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Cropper in a Bootstrap modal</h1>
+
+  <!-- Button trigger modal -->
+  <button class="btn btn-primary" data-target="#modal" data-toggle="modal" type="button">
+    Launch the demo
+  </button>
+
+  <!-- Modal -->
+  <div aria-hidden="true" aria-labelledby="modalLabel" class="modal fade" id="modal" role="dialog" tabindex="-1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">Cropper</h5>
+          <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="img-container">
+            <img alt="Picture" id="image" src="../docs/images/picture.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.bundle.min.js"></script>
+<script src="../dist/cropper.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    var image = document.getElementById('image');
+    var cropBoxData;
+    var canvasData;
+    var cropper;
+
+    $('#modal').on('shown.bs.modal', function () {
+      cropper = new Cropper(image, {
+        autoCropArea: 0.5,
+        ready: function () {
+          //Should set crop box data first here
+          cropper.setCropBoxData(cropBoxData).setCanvasData(canvasData);
+        }
+      });
+    }).on('hidden.bs.modal', function () {
+      cropBoxData = cropper.getCropBoxData();
+      canvasData = cropper.getCanvasData();
+      cropper.destroy();
+    });
+  });
+</script>
+</body>
+</html>

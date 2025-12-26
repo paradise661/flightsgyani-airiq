@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Cropper.js</title>
+  <link href="../dist/cropper.css" rel="stylesheet">
+  <style>
+    .container {
+      max-width: 640px;
+      margin: 20px auto;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Multiple Croppers</h1>
+  <h3>Cropper</h3>
+  <div>
+    <img alt="Picture" src="../docs/images/picture.jpg">
+  </div>
+  <h3>Another</h3>
+  <div>
+    <img alt="Picture" src="../docs/images/picture.jpg">
+  </div>
+</div>
+<script src="../dist/cropper.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    var images = document.querySelectorAll('img');
+    var length = images.length;
+    var croppers = [];
+    var i;
+
+    for (i = 0; i < length; i++) {
+      croppers.push(new Cropper(images[i]));
+    }
+  });
+</script>
+</body>
+</html>
