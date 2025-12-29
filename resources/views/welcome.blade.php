@@ -4,22 +4,33 @@
 <!-- Hero Slider / Banner   -->
 <div class="slider banner-slider relative hidden md:block">
     @if ($sliders->count() > 0)
-    @foreach ($sliders as $slider)
-    <div>
-        <img class="object-cover w-full h-60 md:h-[611px]" src="{{ asset($slider->image) }}" alt="" />
-    </div>
-    @endforeach
+        @foreach ($sliders as $slider)
+            <div class="relative">
+                <!-- Image -->
+                <img 
+                    class="object-cover w-full h-60 md:h-[711px]" 
+                    src="{{ asset($slider->image) }}" 
+                    alt="" 
+                />
+
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+            </div>
+        @endforeach
     @else
-    <div>
-        <img class="object-cover w-full h-60 md:h-[611px]" src="{{ asset('frontend/images/default-slider.jpg') }}"
-            alt="" />
+        <div class="relative">
+            <img 
+                class="object-cover w-full h-60 md:h-[611px]" 
+                src="{{ asset('frontend/images/slider.jpg') }}" 
+                alt="" 
+            />
 
-        {{-- <img class="object-cover w-full h-60 md:h-[611px]"
-            src="https://s3-np1.datahub.com.np/flightsgyani-artifacts/fianl_1.gif" alt="" /> --}}
-    </div>
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        </div>
     @endif
-
 </div>
+
 <!-- / Hero Slider / Banner   -->
 {{--
 <div class="loader hide">
@@ -77,7 +88,7 @@
 </section> --}}
 <!-- Banner Ends -->
 
-@include('front.includes.homepage.search')
+@include('front.includes.homepage.new')
 
 {{-- <section class="bucket-list" data-ref="container-2">
     <div class="bucket-icons">

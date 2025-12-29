@@ -41,19 +41,17 @@
         --muted: 227 227 227; /* #e3e3e3 */
         --muted-foreground: 146 146 146; /* #929292 */
 
-        /* ----------------------------------- */
-        /* primary/brand colors */
-        /* ----------------------------------- */
-        --primary-lighter: 132 236 121; /* #e3e3e3 */
-        --primary-default: 0 166 82;
-        --primary-foreground: 255 255 255; /* #ffffff */
-        --primary-background: 241 249 236; /* #ffffff */
-
+        /* ================= PRIMARY (UPDATED) ================= */
+    /* #005294 */
+    --primary-lighter: 204 224 240;      /* light blue */
+    --primary-default: 2 77 129; /* #024d81 */
+    --primary-foreground: 255 255 255;
+    --primary-background: 230 241 250;
         /* ----------------------------------- */
         /* secondary colors */
         /* ----------------------------------- */
         --secondary-lighter: 231 246 237; /* #dde3ff */
-        --secondary-default: 193 39 47; /* #4e36f5 */
+        --secondary-default: 245 134 22; /* #f58616 */
         --secondary-foreground: 255 255 255; /* #ffffff */
         --secondary-background: 31 34 39;
         --secondary-background-lighter: 53 56 60;
@@ -148,7 +146,7 @@
 
 /* Buttons  */
 .g-button-primary {
-    background: linear-gradient(180deg, #00a44e 0%, #7cc242 100%);
+    background: linear-gradient(180deg, #005294 0%, #4e8cbe 100%);
     flex-grow: 0;
 }
 .g-button-secondary {
@@ -188,7 +186,7 @@
 }
 .sf-card {
     position: relative;
-    background-image: linear-gradient(to right, #269215, #84ec79);
+    background-image: linear-gradient(to right, #146ed4, #79e4ec) !important;
     /* background: rgb(0, 166, 82); */
 }
 .swipesector {
@@ -199,11 +197,12 @@
     flex-shrink: 0;
     margin-left: -15px;
     cursor: pointer;
-    background: url(/images/icons/swap_icon.svg) no-repeat;
+    background: url(/frontend/images/arrowicon.png) no-repeat;
     background-size: 15px 15px;
     background-position: center;
     transition: all 0.5s ease;
     background-color: white;
+    color: blue !important;
 }
 .r-swipesector {
     @apply rounded-full flex items-center justify-center z-10 border shadow-md;
@@ -213,7 +212,7 @@
     flex-shrink: 0;
     margin-left: -15px;
     cursor: pointer;
-    background: url(/images/icons/swap_icon.svg) no-repeat;
+    background: url(/frontend/images/arrowicon.png) no-repeat;
     background-size: 25px 25px;
     background-position: center;
     transition: all 0.5s ease;
@@ -511,3 +510,18 @@
         @apply mt-12;
     }
 }
+.card-main-bg{
+    position: relative;
+    background-image: linear-gradient(to right, #146ed4, #79e4ec) !important;
+  }
+  .dep-icon svg{
+    color: #024d81 !important;
+  }
+  .icon-flight {
+    color: #024d81; /* blue */
+  }
+  
+  .icon-flight:hover {
+    color: orange;
+  }
+  

@@ -4,14 +4,13 @@
         $site = getSite();
     @endphp
     <!-- Footer  -->
-    <footer class="footer bg-secondary-background pt-8 pb-4" style="margin-top: 0 !important;">
+    <footer class="footer bg-primary pt-8 pb-4" style="margin-top: 0 !important;">
         <div class="container mx-auto">
             <div class="grid grid-cols-12 gap-8 px-4 md:px-0">
                 <div class="col-span-12 md:col-span-3">
                     <div class="flex gap-3">
 
                         <!-- <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80" href="/" aria-label="Brand">
-
                             <img src="{{ isset($site->primary_logo) ? $site->logo : asset('frontend/images/logo.png') }}" alt="logo" width="110px" height="60px"/>
                         </a> -->
                         <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"

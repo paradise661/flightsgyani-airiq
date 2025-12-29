@@ -5,7 +5,7 @@
             <!-- Logo -->
             <a class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
                 href="#" aria-label="Preline">
-                <img src="{{ asset('frontend/images/logo.png') }}" width="100" height="60" alt="" />
+                <img src="{{ asset('frontend/images/logonew.png') }}" width="100" height="60" alt="" />
             </a>
             <!-- End Logo -->
         </div>

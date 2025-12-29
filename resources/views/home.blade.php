@@ -1,7 +1,5 @@
 @extends('layouts.user-dashboard')
 
-
-
 @section('content')
 <div class="flex justify-between items-center">
     <div>

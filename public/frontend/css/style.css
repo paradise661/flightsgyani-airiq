@@ -5578,3 +5578,14 @@
      text-align: center;
      padding: 7px 55px !important;
   }
+
+  .flight-card{
+    background-color: purple !important;
+  }
+  .text-blue{
+    color: #005294 !important;
+  }
+  .card-main{
+    background-color: blue !important;
+  }
+ 

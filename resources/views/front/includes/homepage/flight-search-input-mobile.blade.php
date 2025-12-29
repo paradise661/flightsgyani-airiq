@@ -27,7 +27,7 @@
             </div>
             <div
                 class="absolute swap-button right-12 -bottom-5 border px-1 py-1 bg-white z-30 border-primary rounded-full">
-                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                {{-- <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -37,11 +37,11 @@
                         <path d="M17 20.5L17 7.5M17 20.5L21.5 16.1667M17 20.5L12.5 16.1667" stroke="#00a652"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </g>
-                </svg>
+                </svg> --}}
+                <img src="{{asset("frontend/images/arrows.png")}}" alt="">
             </div>
-
             <div class="dep-icon absolute right-2 bottom-1">
-                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                {{-- <svg width="24px" height="24px" style="color:#024d81 " viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -52,7 +52,8 @@
                         <path d="M4 19L20 19" stroke="#00a652" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round"></path>
                     </g>
-                </svg>
+                </svg> --}}
+                <i class="fa-solid fa-plane-arrival text-[#1567ae]"></i>
             </div>
         </div>
         <div class="@if ($i > 0) r-multi-to @else r-to @endif w-full relative">
@@ -67,7 +68,6 @@
                         <p
                             class="text-xs text-black font-medium uppercase truncate overflow-hidden d-arrairport{{ (bool) $iteration ? '-' . $iteration : '' }} multi-arrairport">
                         </p>
-
                         <input id="r-arrcity" type="text" hidden="">
                         @if ($i > 0)
                             <input id="rMultiToAirport{{ $iteration }}" name="int_multi_to[]" type="text" hidden>
@@ -79,7 +79,8 @@
                 </div>
             </div>
             <div class="dep-icon absolute right-2 bottom-1">
-                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                {{-- <svg width="24px" class="icon-flight" height="24px" viewBox="0 0 24 24" fill="#00a652"
+                stroke="#00a652"
                     xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -90,7 +91,8 @@
                         <path d="M4 19L20 19" stroke="#00a652" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round"></path>
                     </g>
-                </svg>
+                </svg> --}}
+                <i class="fa-solid fa-plane-arrival text-[#1567ae]"></i>
             </div>
         </div>
         <div class="r-multi-depdate w-full">
