@@ -651,9 +651,7 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="open-international-search stretched-link"></div>
-
                                     <div class="r-swipesector absolute top-7 -right-7 shadow"
                                         id="r-swapinput"></div>
                                 </div>
