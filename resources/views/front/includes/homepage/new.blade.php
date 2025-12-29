@@ -628,7 +628,7 @@
                             <!-- One / Two Way  -->
                             <div class="grid grid-cols-2 gap-4 mt-3 r-singlecity" style="display: grid">
                                 <div class="r-from relative">
-                                    <div class="border border-primary px-2 py-3 rounded-lg">
+                                    <div class="shadow px-2 py-3 rounded-lg">
                                         <div class="relative inline-flex w-full">
                                             <div class="flex flex-col items-center justify-center w-full">
                                                 <input id="r-depcity" name="depcity" type="hidden" readonly=""
@@ -654,11 +654,11 @@
 
                                     <div class="open-international-search stretched-link"></div>
 
-                                    <div class="r-swipesector absolute top-7 -right-7 border border-primary"
+                                    <div class="r-swipesector absolute top-7 -right-7 shadow"
                                         id="r-swapinput"></div>
                                 </div>
                                 <div class="r-to relative">
-                                    <div class="border border-primary px-2 py-3 rounded-lg">
+                                    <div class="shadow px-2 py-3 rounded-lg">
                                         <div class="relative inline-flex w-full ">
                                             <div class="flex flex-col items-center justify-center w-full">
                                                 <input id="r-arrcity" name="destinationcity" type="hidden"
@@ -684,7 +684,7 @@
                                 </div>
                                 <div class="r-dep">
                                     <div
-                                        class="border border-primary px-2 py-3 rounded-lg flex flex-col items-start justify-center">
+                                        class="shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
                                         <p class="text-xs text-gray-400 font-medium capitalize">
                                             Departure Date
                                         </p>
@@ -714,7 +714,7 @@
                                 </div>
                                 <div class="r-return" style="opacity: 0.4">
                                     <div
-                                        class="relative border border-primary px-2 py-3 rounded-lg flex flex-col items-start justify-center">
+                                        class="relative shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
                                         <p class="text-xs text-gray-400 font-medium capitalize">
                                             Return Date
                                         </p>
@@ -747,7 +747,7 @@
                                 </div>
                                 <div class="r-travellers">
                                     <div
-                                        class="relative border border-primary px-2 py-3 rounded-lg flex flex-col items-start justify-center">
+                                        class="relative shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
                                         <p class="text-xs text-gray-400 font-medium capitalize">
                                             Traveller(s)
                                         </p>
@@ -1099,7 +1099,7 @@
                                 </div>
                                 <div class="r-class">
                                     <div
-                                        class="border border-primary px-2 py-3 rounded-lg flex flex-col items-start justify-center">
+                                        class="shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
                                         <p class="text-xs text-gray-400 font-medium capitalize">
                                             Class
                                         </p>

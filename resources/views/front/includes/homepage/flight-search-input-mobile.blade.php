@@ -2,7 +2,7 @@
     <p class="font-medium text-base">Flight {{ $iteration + 1 }} </p>
     <div class="grid grid-cols-1 gap-2 w-full multi-city-group">
         <div class="@if ($i > 0) r-multi-from @else r-from @endif w-full relative">
-            <div class="border border-primary px-2 py-2 rounded-lg">
+            <div class="shadow px-2 py-2 rounded-lg">
                 <div class=" relative inline-flex w-full overflow-hidden">
                     <div class="flex flex-col items-start justify-center w-full" id="from-multi-drop{{ $iteration }}"
                         aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="@if ($i > 0) r-multi-to @else r-to @endif w-full relative">
-            <div class="border border-primary px-2 py-2 rounded-lg">
+            <div class="shadow px-2 py-2 rounded-lg">
                 <div class="relative inline-flex  w-full">
                     <div class="hs-dropdown-toggle flex flex-col items-start justify-center w-full overflow-hidden"
                         id="to-multi-drop{{ $iteration }}" aria-haspopup="menu" aria-expanded="false"
@@ -96,7 +96,7 @@
             </div>
         </div>
         <div class="r-multi-depdate w-full">
-            <div class="border border-primary px-2 py-2 rounded-lg flex flex-col items-start justify-center">
+            <div class="shadow px-2 py-2 rounded-lg flex flex-col items-start justify-center">
                 <p class="text-xs text-gray-400 font-medium capitalize">
                     Departure
                 </p>
