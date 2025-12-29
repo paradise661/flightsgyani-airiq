@@ -6,7 +6,7 @@
             Route::is('flight.payment')) md:absolute  @endif
     w-full z-50">
 
-    <nav class="  px-6 py-2  bg-primary md:bg-transparent ">
+    <nav class="  px-6 py-2  bg-primary lg:bg-transparent ">
         <div
             class="  container mx-auto  flex items-center justify-between gap-6">
 
