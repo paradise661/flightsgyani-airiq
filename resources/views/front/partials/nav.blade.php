@@ -16,7 +16,7 @@
                     alt="Flights Gyani" class="h-12 object-contain">
             </a>
             <!-- PHONE & EMAIL (CENTER) -->
-            <div class="flex items-center gap-6 text-sm text-white">
+            <div class=" hidden lg:flex flex items-center gap-6 text-sm text-white">
                 <a href="tel:01-4547791" class="flex items-center gap-2 hover:text-primary">
                     <i class="fa-solid fa-phone text-white"></i>
                     01-4547791 / 9802368063 / 9860146706
