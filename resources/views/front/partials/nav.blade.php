@@ -33,7 +33,7 @@
 
                 @guest
                     <a href="{{ route('login') }}"
-                        class="hidden md:inline-flex px-4 py-2 text-sm border border-white text-white rounded-full hover:bg-primary hover:text-white transition">
+                        class="hidden md:inline-flex px-4 py-2 text-sm bg-secondary border border-white text-white rounded-full hover:bg-primary hover:text-white transition">
                         Sign In
                     </a>
 
