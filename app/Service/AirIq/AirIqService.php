@@ -30,8 +30,8 @@ class AirIqService
                 'Authorization' => 'Basic ' . $base64String,
             ])->post(self::$airiq['url'] . "/Login");
 
-            // $data = $response->json();
-            // dd($data);
+            $data = $response->json();
+            dd($data);
             // if ($response->successful()) {
             $data = $response->json();
             $jsonData = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
@@ -57,6 +57,7 @@ class AirIqService
         if (!Cache::get('airiq_token')) {
             self::generateToken();
         }
+        dd(Cache::get('airiq_token'));
 
         try {
             $time = $search->departure . "-" . $search->destination . "-" . date("dHis");

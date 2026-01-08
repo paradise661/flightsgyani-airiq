@@ -10,10 +10,11 @@
 {{-- New Design --}}
 <!-- Search Box  -->
 <div class="search-box" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
-    <center class=" text-white font-[400] mb-5"> 
+    <center class=" text-white font-[400] mb-5">
         <h1 class="text-4xl text-white font-[800] py-3">Book Your Smooth Take Up</h1>
 
-        <p>Tailwind CSS controls the thickness or boldness of text using font-weight utility classes, which correspond to specific numeric font-weight properties in CSS. </p>
+        <p>Tailwind CSS controls the thickness or boldness of text using font-weight utility classes, which correspond
+            to specific numeric font-weight properties in CSS. </p>
     </center>
     <div class="search-inner-wrap">
         <div class=" relative sf-card-default z-20 drop-shadow-md w-full rounded-lg py-4">
@@ -48,27 +49,25 @@
                             <div class="relative">
                                 <select
                                     class="border-0 py-3 pr-8 text-sm font-medium rounded-md focus:ring-0 bg-transparent appearance-none cursor-pointer"
-                                    id="tripType"
-                                    name="type"
-                                >
+                                    id="tripType" name="type">
                                     <option value="O">One Way</option>
                                     <option value="R">Two Way</option>
                                     <option value="M">Multi City</option>
                                 </select>
-                        
+
                                 <!-- Icon -->
                                 <div class="absolute top-1/2 end-2.5 -translate-y-1/2 pointer-events-none">
                                     <svg class="shrink-0 size-4 text-gray-500 " xmlns="http://www.w3.org/2000/svg"
-                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round">
-                                    <path d="m7 15 5 5 5-5"></path>
-                                    <path d="m7 9 5-5 5 5"></path>
-                                </svg>
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="m7 15 5 5 5-5"></path>
+                                        <path d="m7 9 5-5 5 5"></path>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- / Trip Type Dropdown  -->
 
                         <!-- International Search  -->
@@ -165,7 +164,7 @@
                                                 role="menu" aria-orientation="vertical"
                                                 aria-labelledby="international-destination-drop">
                                                 <div class="w-full flex justify-between items-center">
-                                                    
+
                                                     <h4>Flying To</h4>
                                                 </div>
                                                 <div class="relative mt-2">
@@ -652,8 +651,7 @@
                                         </div>
                                     </div>
                                     <div class="open-international-search stretched-link"></div>
-                                    <div class="r-swipesector absolute top-7 -right-7 shadow"
-                                        id="r-swapinput"></div>
+                                    <div class="r-swipesector absolute top-7 -right-7 shadow" id="r-swapinput"></div>
                                 </div>
                                 <div class="r-to relative">
                                     <div class="shadow px-2 py-3 rounded-lg">
@@ -681,8 +679,7 @@
                                     <div class="open-international-search stretched-link"></div>
                                 </div>
                                 <div class="r-dep">
-                                    <div
-                                        class="shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
+                                    <div class="shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
                                         <p class="text-xs text-gray-400 font-medium capitalize">
                                             Departure Date
                                         </p>
@@ -1096,8 +1093,7 @@
                                     </div>
                                 </div>
                                 <div class="r-class">
-                                    <div
-                                        class="shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
+                                    <div class="shadow px-2 py-3 rounded-lg flex flex-col items-start justify-center">
                                         <p class="text-xs text-gray-400 font-medium capitalize">
                                             Class
                                         </p>
@@ -1186,8 +1182,8 @@
                                                         class="shrink-0 size-3.5 text-gray-500 "
                                                         xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
-                                                        stroke="currentColor" stroke-width="2"
-                                                        stroke-linecap="round" stroke-linejoin="round">
+                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round">
                                                         <path d="m7 15 5 5 5-5"></path>
                                                         <path d="m7 9 5-5 5 5"></path>
                                                     </svg></div>
@@ -1220,8 +1216,7 @@
                                                         style="height: 44px;">
                                                         <svg width="24px" height="24px" viewBox="0 0 24 24"
                                                             version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                            fill="#000000">
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                                                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
                                                                 stroke-linejoin="round"></g>
@@ -1699,7 +1694,7 @@
         });
     });
 
-    
+
 
 
     $('.primary-intl-search').on('click', function() {

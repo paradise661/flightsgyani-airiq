@@ -1,0 +1,3260 @@
+[
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "21:05:00",
+                        "arrivaltime": "22:55:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "212",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "S",
+                        "flighttime": "125",
+                        "elapstime": "2 Hr 5 mins",
+                        "operatingairline": "AI",
+                        "marketingairline": "AI",
+                        "valadatingairline": "AI"
+                    }
+                ],
+                "time": "125"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 24893",
+            "tax": "NPR 14978",
+            "total": "NPR 39871",
+            "markedfare": "NPR 41871",
+            "markedfarewithoutdiscount": "NPR 41871",
+            "mbasefare": "NPR 26893",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 7847",
+                "tax": "NPR 4837",
+                "total": "NPR 12684",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1400"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 8347",
+                "markup": 500,
+                "mtotal": "NPR 26368"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 5885",
+                "tax": "NPR 4581",
+                "total": "NPR 10466",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT/CH25"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1144"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 6385",
+                "markup": 500,
+                "mtotal": "NPR 10966"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 3314",
+                "tax": "NPR 723",
+                "total": "NPR 4037",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YFRKT/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 465"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 3814",
+                "markup": 500,
+                "mtotal": "NPR 4537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "AI",
+        "rph": "1",
+        "detail": [
+            {
+                "seat": "9",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "21:05:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "22:55:00",
+                "airline": "AI",
+                "totaltime": "2 Hr 5 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "07:35:00",
+                        "arrivaltime": "09:25:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "216",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "S",
+                        "flighttime": "125",
+                        "elapstime": "2 Hr 5 mins",
+                        "operatingairline": "AI",
+                        "marketingairline": "AI",
+                        "valadatingairline": "AI"
+                    }
+                ],
+                "time": "125"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 24893",
+            "tax": "NPR 14978",
+            "total": "NPR 39871",
+            "markedfare": "NPR 41871",
+            "markedfarewithoutdiscount": "NPR 41871",
+            "mbasefare": "NPR 26893",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 7847",
+                "tax": "NPR 4837",
+                "total": "NPR 12684",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1400"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 8347",
+                "markup": 500,
+                "mtotal": "NPR 26368"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 5885",
+                "tax": "NPR 4581",
+                "total": "NPR 10466",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT/CH25"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1144"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 6385",
+                "markup": 500,
+                "mtotal": "NPR 10966"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 3314",
+                "tax": "NPR 723",
+                "total": "NPR 4037",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YFRKT/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 465"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 3814",
+                "markup": 500,
+                "mtotal": "NPR 4537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "AI",
+        "rph": "2",
+        "detail": [
+            {
+                "seat": "9",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "07:35:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "09:25:00",
+                "airline": "AI",
+                "totaltime": "2 Hr 5 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "17:30:00",
+                        "arrivaltime": "19:10:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "220",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "S",
+                        "flighttime": "115",
+                        "elapstime": "1 Hr 55 mins",
+                        "operatingairline": "AI",
+                        "marketingairline": "AI",
+                        "valadatingairline": "AI"
+                    }
+                ],
+                "time": "115"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 24893",
+            "tax": "NPR 14978",
+            "total": "NPR 39871",
+            "markedfare": "NPR 41871",
+            "markedfarewithoutdiscount": "NPR 41871",
+            "mbasefare": "NPR 26893",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 7847",
+                "tax": "NPR 4837",
+                "total": "NPR 12684",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1400"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 8347",
+                "markup": 500,
+                "mtotal": "NPR 26368"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 5885",
+                "tax": "NPR 4581",
+                "total": "NPR 10466",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT/CH25"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1144"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 6385",
+                "markup": 500,
+                "mtotal": "NPR 10966"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 3314",
+                "tax": "NPR 723",
+                "total": "NPR 4037",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YFRKT/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 465"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 3814",
+                "markup": 500,
+                "mtotal": "NPR 4537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "AI",
+        "rph": "3",
+        "detail": [
+            {
+                "seat": "9",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "17:30:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "19:10:00",
+                "airline": "AI",
+                "totaltime": "1 Hr 55 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "06:35:00",
+                        "arrivaltime": "08:20:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "224",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "S",
+                        "flighttime": "120",
+                        "elapstime": "2 Hr 0 mins",
+                        "operatingairline": "AI",
+                        "marketingairline": "AI",
+                        "valadatingairline": "AI"
+                    }
+                ],
+                "time": "120"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 24893",
+            "tax": "NPR 14978",
+            "total": "NPR 39871",
+            "markedfare": "NPR 41871",
+            "markedfarewithoutdiscount": "NPR 41871",
+            "mbasefare": "NPR 26893",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 7847",
+                "tax": "NPR 4837",
+                "total": "NPR 12684",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1400"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 8347",
+                "markup": 500,
+                "mtotal": "NPR 26368"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 5885",
+                "tax": "NPR 4581",
+                "total": "NPR 10466",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YXRKT/CH25"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1144"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 6385",
+                "markup": 500,
+                "mtotal": "NPR 10966"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 3314",
+                "tax": "NPR 723",
+                "total": "NPR 4037",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "SU3YFRKT/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 465"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 3814",
+                "markup": 500,
+                "mtotal": "NPR 4537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "AI",
+        "rph": "4",
+        "detail": [
+            {
+                "seat": "9",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "06:35:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "08:20:00",
+                "airline": "AI",
+                "totaltime": "2 Hr 0 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "13:45:00",
+                        "arrivaltime": "15:15:00",
+                        "departure": "KTM",
+                        "depterminal": null,
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "217",
+                        "stops": "0",
+                        "class": "First Class Suite",
+                        "resbook": "R",
+                        "flighttime": "105",
+                        "elapstime": "1 Hr 45 mins",
+                        "operatingairline": "RA",
+                        "marketingairline": "RA",
+                        "valadatingairline": "RA"
+                    }
+                ],
+                "time": "105"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 12822",
+            "tax": "NPR 27199",
+            "total": "NPR 40021",
+            "markedfare": "NPR 39221",
+            "markedfarewithoutdiscount": "NPR 41221",
+            "mbasefare": "NPR 14022",
+            "discount": "NPR 2000",
+            "discountAmount": 2000
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 4499",
+                "tax": "NPR 8876",
+                "total": "NPR 13375",
+                "refund": "false",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "RA",
+                        "code": "ROWDELA"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1479"
+                    },
+                    {
+                        "code": "YQI",
+                        "amount": "NPR 582"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 3636"
+                    }
+                ],
+                "mbasefare": "NPR 4799",
+                "markup": 300,
+                "mtotal": "NPR 27350"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 3374",
+                "tax": "NPR 8730",
+                "total": "NPR 12104",
+                "refund": "false",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "RA",
+                        "code": "ROWDELA/CH"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1333"
+                    },
+                    {
+                        "code": "YQI",
+                        "amount": "NPR 582"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 3636"
+                    }
+                ],
+                "mbasefare": "NPR 3674",
+                "markup": 300,
+                "mtotal": "NPR 12404"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 450",
+                "tax": "NPR 717",
+                "total": "NPR 1167",
+                "refund": "false",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "RA",
+                        "code": "ROWDELA/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 135"
+                    },
+                    {
+                        "code": "YQI",
+                        "amount": "NPR 582"
+                    }
+                ],
+                "mbasefare": "NPR 750",
+                "markup": 300,
+                "mtotal": "NPR 1467"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4000.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 2000.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4000.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 2000.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 2000.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "7",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "7",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "7",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "RA",
+        "rph": "5",
+        "detail": [
+            {
+                "seat": "7",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": null,
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "13:45:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "15:15:00",
+                "airline": "RA",
+                "totaltime": "1 Hr 45 mins",
+                "refundable": "false"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "14:55:00",
+                        "arrivaltime": "16:30:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "218",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "T",
+                        "flighttime": "110",
+                        "elapstime": "1 Hr 50 mins",
+                        "operatingairline": "AI",
+                        "marketingairline": "AI",
+                        "valadatingairline": "AI"
+                    }
+                ],
+                "time": "110"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 26961",
+            "tax": "NPR 15246",
+            "total": "NPR 42207",
+            "markedfare": "NPR 44207",
+            "markedfarewithoutdiscount": "NPR 44207",
+            "mbasefare": "NPR 28961",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 8599",
+                "tax": "NPR 4934",
+                "total": "NPR 13533",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "TU3YXRKT"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1497"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 9099",
+                "markup": 500,
+                "mtotal": "NPR 28066"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 6449",
+                "tax": "NPR 4655",
+                "total": "NPR 11104",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "TU3YXRKT/CH25"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1218"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 6949",
+                "markup": 500,
+                "mtotal": "NPR 11604"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 3314",
+                "tax": "NPR 723",
+                "total": "NPR 4037",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "TU3YFRKT/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 465"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 3814",
+                "markup": 500,
+                "mtotal": "NPR 4537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "AI",
+        "rph": "6",
+        "detail": [
+            {
+                "seat": "8",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "14:55:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "16:30:00",
+                "airline": "AI",
+                "totaltime": "1 Hr 50 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "10:05:00",
+                        "arrivaltime": "11:50:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "214",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "T",
+                        "flighttime": "120",
+                        "elapstime": "2 Hr 0 mins",
+                        "operatingairline": "AI",
+                        "marketingairline": "AI",
+                        "valadatingairline": "AI"
+                    }
+                ],
+                "time": "120"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 27281",
+            "tax": "NPR 15288",
+            "total": "NPR 42569",
+            "markedfare": "NPR 44569",
+            "markedfarewithoutdiscount": "NPR 44569",
+            "mbasefare": "NPR 29281",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 8759",
+                "tax": "NPR 4955",
+                "total": "NPR 13714",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "TU3YXRKT"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1518"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 9259",
+                "markup": 500,
+                "mtotal": "NPR 28428"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 6449",
+                "tax": "NPR 4655",
+                "total": "NPR 11104",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "TU3YXRKT/CH25"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 1218"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 6949",
+                "markup": 500,
+                "mtotal": "NPR 11604"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 3314",
+                "tax": "NPR 723",
+                "total": "NPR 4037",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "DEL",
+                        "air": "AI",
+                        "code": "TU3YFRKT/IN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 465"
+                    },
+                    {
+                        "code": "YRF",
+                        "amount": "NPR 258"
+                    }
+                ],
+                "mbasefare": "NPR 3814",
+                "markup": 500,
+                "mtotal": "NPR 4537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 7998.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 4799.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "false",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": false
+                    }
+                ]
+            }
+        ],
+        "airline": "AI",
+        "rph": "7",
+        "detail": [
+            {
+                "seat": "9",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 0,
+                "origintime": "10:05:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-20",
+                "destinationtime": "11:50:00",
+                "airline": "AI",
+                "totaltime": "2 Hr 0 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "16:55:00",
+                        "arrivaltime": "23:55:00",
+                        "departure": "KTM",
+                        "depterminal": null,
+                        "arrivalterminal": "1",
+                        "arrival": "KUL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Kuala Lumpur International",
+                        "flightnumber": "183",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "X",
+                        "flighttime": "285",
+                        "elapstime": "4 Hr 45 mins",
+                        "operatingairline": "OD",
+                        "marketingairline": "OD",
+                        "valadatingairline": "OD"
+                    },
+                    {
+                        "departdate": "2026-01-21",
+                        "arrivaldate": "2026-01-21",
+                        "departtime": "18:05:00",
+                        "arrivaltime": "21:05:00",
+                        "departure": "KUL",
+                        "depterminal": "1",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Kuala Lumpur International",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "205",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "X",
+                        "flighttime": "330",
+                        "elapstime": "5 Hr 30 mins",
+                        "operatingairline": "OD",
+                        "marketingairline": "OD",
+                        "valadatingairline": "OD"
+                    }
+                ],
+                "time": "1705"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 127689",
+            "tax": "NPR 81264",
+            "total": "NPR 208953",
+            "markedfare": "NPR 210953",
+            "markedfarewithoutdiscount": "NPR 210953",
+            "mbasefare": "NPR 129689",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 37502",
+                "tax": "NPR 22486",
+                "total": "NPR 59988",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "OD",
+                        "code": "XOWBSSNP"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "OD",
+                        "code": "X1OBSSMY"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "G1",
+                        "amount": "NPR 716"
+                    },
+                    {
+                        "code": "H8",
+                        "amount": "NPR 36"
+                    },
+                    {
+                        "code": "MY",
+                        "amount": "NPR 1502"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 6583"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 10470"
+                    }
+                ],
+                "mbasefare": "NPR 38002",
+                "markup": 500,
+                "mtotal": "NPR 120976"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 37502",
+                "tax": "NPR 22486",
+                "total": "NPR 59988",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "OD",
+                        "code": "XOWBSSNPCH"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "OD",
+                        "code": "X1OBSSMYCH"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "G1",
+                        "amount": "NPR 716"
+                    },
+                    {
+                        "code": "H8",
+                        "amount": "NPR 36"
+                    },
+                    {
+                        "code": "MY",
+                        "amount": "NPR 1502"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 6583"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 10470"
+                    }
+                ],
+                "mbasefare": "NPR 38002",
+                "markup": 500,
+                "mtotal": "NPR 60488"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 15183",
+                "tax": "NPR 13806",
+                "total": "NPR 28989",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "OD",
+                        "code": "XOWBSSNPIN"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "OD",
+                        "code": "X1OBSSMYIN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 3336"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 10470"
+                    }
+                ],
+                "mbasefare": "NPR 15683",
+                "markup": 500,
+                "mtotal": "NPR 29489"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 32419.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 32419.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 32019.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 32019.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 8470.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 8470.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 7271.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "F"
+                    },
+                    {
+                        "available": "5",
+                        "cabin": "Y",
+                        "meal": "F"
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "F"
+                    },
+                    {
+                        "available": "5",
+                        "cabin": "Y",
+                        "meal": "F"
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "0 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "F"
+                    },
+                    {
+                        "available": "5",
+                        "cabin": "Y",
+                        "meal": "F"
+                    }
+                ]
+            }
+        ],
+        "airline": "OD",
+        "rph": "8",
+        "detail": [
+            {
+                "seat": "5",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": null,
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 1,
+                "origintime": "16:55:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-21",
+                "destinationtime": "21:05:00",
+                "airline": "OD",
+                "totaltime": "28 Hr 25 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-20",
+                        "departtime": "16:55:00",
+                        "arrivaltime": "23:55:00",
+                        "departure": "KTM",
+                        "depterminal": null,
+                        "arrivalterminal": "1",
+                        "arrival": "KUL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Kuala Lumpur International",
+                        "flightnumber": "183",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "X",
+                        "flighttime": "285",
+                        "elapstime": "4 Hr 45 mins",
+                        "operatingairline": "OD",
+                        "marketingairline": "OD",
+                        "valadatingairline": "OD"
+                    },
+                    {
+                        "departdate": "2026-01-21",
+                        "arrivaldate": "2026-01-21",
+                        "departtime": "16:00:00",
+                        "arrivaltime": "19:00:00",
+                        "departure": "KUL",
+                        "depterminal": "1",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Kuala Lumpur International",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "207",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "X",
+                        "flighttime": "330",
+                        "elapstime": "5 Hr 30 mins",
+                        "operatingairline": "OD",
+                        "marketingairline": "OD",
+                        "valadatingairline": "OD"
+                    }
+                ],
+                "time": "1580"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 127689",
+            "tax": "NPR 81264",
+            "total": "NPR 208953",
+            "markedfare": "NPR 210953",
+            "markedfarewithoutdiscount": "NPR 210953",
+            "mbasefare": "NPR 129689",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 37502",
+                "tax": "NPR 22486",
+                "total": "NPR 59988",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "OD",
+                        "code": "XOWBSSNP"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "OD",
+                        "code": "X1OBSSMY"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "G1",
+                        "amount": "NPR 716"
+                    },
+                    {
+                        "code": "H8",
+                        "amount": "NPR 36"
+                    },
+                    {
+                        "code": "MY",
+                        "amount": "NPR 1502"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 6583"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 10470"
+                    }
+                ],
+                "mbasefare": "NPR 38002",
+                "markup": 500,
+                "mtotal": "NPR 120976"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 37502",
+                "tax": "NPR 22486",
+                "total": "NPR 59988",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "OD",
+                        "code": "XOWBSSNPCH"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "OD",
+                        "code": "X1OBSSMYCH"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "G1",
+                        "amount": "NPR 716"
+                    },
+                    {
+                        "code": "H8",
+                        "amount": "NPR 36"
+                    },
+                    {
+                        "code": "MY",
+                        "amount": "NPR 1502"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 6583"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 10470"
+                    }
+                ],
+                "mbasefare": "NPR 38002",
+                "markup": 500,
+                "mtotal": "NPR 60488"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 15183",
+                "tax": "NPR 13806",
+                "total": "NPR 28989",
+                "refund": "true",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "OD",
+                        "code": "XOWBSSNPIN"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "OD",
+                        "code": "X1OBSSMYIN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 3336"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 10470"
+                    }
+                ],
+                "mbasefare": "NPR 15683",
+                "markup": 500,
+                "mtotal": "NPR 29489"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 32419.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 32419.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 32019.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 32019.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 8939.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 8470.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 8470.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 7271.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "F"
+                    },
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": "F"
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "20 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "F"
+                    },
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": "F"
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "0 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "F"
+                    },
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": "F"
+                    }
+                ]
+            }
+        ],
+        "airline": "OD",
+        "rph": "9",
+        "detail": [
+            {
+                "seat": "8",
+                "bag": "20 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": null,
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 1,
+                "origintime": "16:55:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-21",
+                "destinationtime": "19:00:00",
+                "airline": "OD",
+                "totaltime": "26 Hr 20 mins",
+                "refundable": "true"
+            }
+        ]
+    },
+    {
+        "flight": [
+            {
+                "sectors": [
+                    {
+                        "departdate": "2026-01-20",
+                        "arrivaldate": "2026-01-21",
+                        "departtime": "22:30:00",
+                        "arrivaltime": "05:30:00",
+                        "departure": "KTM",
+                        "depterminal": "I",
+                        "arrivalterminal": "1",
+                        "arrival": "KUL",
+                        "departport": "Tribhuvan",
+                        "arrivalport": "Kuala Lumpur International",
+                        "flightnumber": "115",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "M",
+                        "flighttime": "285",
+                        "elapstime": "4 Hr 45 mins",
+                        "operatingairline": "MH",
+                        "marketingairline": "MH",
+                        "valadatingairline": "MH"
+                    },
+                    {
+                        "departdate": "2026-01-21",
+                        "arrivaldate": "2026-01-21",
+                        "departtime": "18:50:00",
+                        "arrivaltime": "21:50:00",
+                        "departure": "KUL",
+                        "depterminal": "1",
+                        "arrivalterminal": "3",
+                        "arrival": "DEL",
+                        "departport": "Kuala Lumpur International",
+                        "arrivalport": "Indira Gandhi International",
+                        "flightnumber": "190",
+                        "stops": "0",
+                        "class": "Economy",
+                        "resbook": "M",
+                        "flighttime": "330",
+                        "elapstime": "5 Hr 30 mins",
+                        "operatingairline": "MH",
+                        "marketingairline": "MH",
+                        "valadatingairline": "MH"
+                    }
+                ],
+                "time": "1415"
+            }
+        ],
+        "pricing": {
+            "basefare": "NPR 459995",
+            "tax": "NPR 86997",
+            "total": "NPR 546992",
+            "markedfare": "NPR 548992",
+            "markedfarewithoutdiscount": "NPR 548992",
+            "mbasefare": "NPR 461995",
+            "discount": "NPR 0",
+            "discountAmount": 0
+        },
+        "breakdown": [
+            {
+                "type": "ADT",
+                "qty": "2",
+                "basefare": "NPR 160240",
+                "tax": "NPR 29897",
+                "total": "NPR 190137",
+                "refund": "false",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "MH",
+                        "code": "MFLOWNP"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "MH",
+                        "code": "MFLOWMY"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "G1",
+                        "amount": "NPR 716"
+                    },
+                    {
+                        "code": "H8",
+                        "amount": "NPR 36"
+                    },
+                    {
+                        "code": "MY",
+                        "amount": "NPR 1502"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 21556"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 2908"
+                    }
+                ],
+                "mbasefare": "NPR 160740",
+                "markup": 500,
+                "mtotal": "NPR 381274"
+            },
+            {
+                "type": "CNN",
+                "qty": "1",
+                "basefare": "NPR 120899",
+                "tax": "NPR 24782",
+                "total": "NPR 145681",
+                "refund": "false",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "MH",
+                        "code": "MFLOWNPCH"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "MH",
+                        "code": "MFLOWMYCH"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "IN",
+                        "amount": "NPR 524"
+                    },
+                    {
+                        "code": "NP",
+                        "amount": "NPR 2655"
+                    },
+                    {
+                        "code": "NQ",
+                        "amount": "NPR 0"
+                    },
+                    {
+                        "code": "G1",
+                        "amount": "NPR 716"
+                    },
+                    {
+                        "code": "H8",
+                        "amount": "NPR 36"
+                    },
+                    {
+                        "code": "MY",
+                        "amount": "NPR 1502"
+                    },
+                    {
+                        "code": "T6",
+                        "amount": "NPR 16441"
+                    },
+                    {
+                        "code": "YQF",
+                        "amount": "NPR 2908"
+                    }
+                ],
+                "mbasefare": "NPR 121399",
+                "markup": 500,
+                "mtotal": "NPR 146181"
+            },
+            {
+                "type": "INF",
+                "qty": "1",
+                "basefare": "NPR 18616",
+                "tax": "NPR 2421",
+                "total": "NPR 21037",
+                "refund": "false",
+                "farecodes": [
+                    {
+                        "start": "KTM",
+                        "end": "KUL",
+                        "air": "MH",
+                        "code": "MFLOWNPIN"
+                    },
+                    {
+                        "start": "KUL",
+                        "end": "DEL",
+                        "air": "MH",
+                        "code": "MFLOWMYIN"
+                    }
+                ],
+                "taxbreakdown": [
+                    {
+                        "code": "T6",
+                        "amount": "NPR 2421"
+                    }
+                ],
+                "mbasefare": "NPR 19116",
+                "markup": 500,
+                "mtotal": "NPR 21537"
+            }
+        ],
+        "farepenalty": [
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 18015.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 18015.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "ADT",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 18015.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 18015.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "CNN",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 1801.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Refund",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 1801.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "Before",
+                "status": "true",
+                "amount": "NPR 0.0"
+            },
+            {
+                "paxtype": "INF",
+                "penaltytype": "Exchange",
+                "applicable": "After",
+                "status": "true",
+                "amount": "NPR 0.0"
+            }
+        ],
+        "baggage": [
+            {
+                "pax": "ADT",
+                "type": "Weight",
+                "unit": "35 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "M"
+                    },
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": "M"
+                    }
+                ]
+            },
+            {
+                "pax": "CNN",
+                "type": "Weight",
+                "unit": "35 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "M"
+                    },
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": "M"
+                    }
+                ]
+            },
+            {
+                "pax": "INF",
+                "type": "Weight",
+                "unit": "10 kg",
+                "description": false,
+                "detail": [
+                    {
+                        "available": "9",
+                        "cabin": "Y",
+                        "meal": "M"
+                    },
+                    {
+                        "available": "8",
+                        "cabin": "Y",
+                        "meal": "M"
+                    }
+                ]
+            }
+        ],
+        "airline": "MH",
+        "rph": "10",
+        "detail": [
+            {
+                "seat": "8",
+                "bag": "35 kg Weight ",
+                "origin": "KTM",
+                "orgport": "Tribhuvan",
+                "orgterminal": "I",
+                "destination": "DEL",
+                "destport": "Indira Gandhi International",
+                "desterminal": "3",
+                "stops": 1,
+                "origintime": "22:30:00",
+                "origindate": "2026-01-20",
+                "destinationdate": "2026-01-21",
+                "destinationtime": "21:50:00",
+                "airline": "MH",
+                "totaltime": "23 Hr 35 mins",
+                "refundable": "false"
+            }
+        ]
+    }
+]

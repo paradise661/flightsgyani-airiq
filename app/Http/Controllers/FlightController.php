@@ -184,14 +184,24 @@ class FlightController extends FlightBaseController
         session()->forget(['flight', 'flight_book']); //forget if previously flight is booked
         session()->put('flight_search', $search->id); //put search in session
 
-        $collect_flights = $this->getFlights($search); // sabre data
+        // $collect_flights = $this->getFlights($search); // sabre data
+
+        $path = public_path('sabre/oneway.json');
+
+        if (!file_exists($path)) {
+            return null; // or handle error
+        }
+
+        $collect_flights = json_decode(file_get_contents($path), true); // true = array
+        // dd($collect_flights);
+
 
         $collect_flights2 = [];
-        if($search->departure !== 'KTM'){
-            if($request->type !== 'M'){
-                $collect_flights2 = AirIqService::getFlights($search);  // airiq data
-            }
-        }
+        // if ($search->departure !== 'KTM') {
+        //     if ($request->type !== 'M') {
+        //         $collect_flights2 = AirIqService::getFlights($search);  // airiq data
+        //     }
+        // }
 
         $mergedFlights = array_merge($collect_flights, $collect_flights2);
         // usort($mergedFlights, function ($a, $b) {
@@ -221,8 +231,6 @@ class FlightController extends FlightBaseController
 
     public function getFlights($search)
     {
-
-        dd("Success");
         $token = $this->callCreateSession(); //create sabre session token and put in session with created time
         if (!$token) {
             return redirect()->back()->with('warning', 'Error Connecting to server.');
