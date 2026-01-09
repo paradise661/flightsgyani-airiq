@@ -44,7 +44,6 @@
             </tr>
         </table>
     </div>
-
     <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:912px;">
         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
             style="background:#ffffff;background-color:#ffffff;width:100%;">
@@ -99,10 +98,8 @@
             </tbody>
         </table>
     </div>
-
     @if($tickets)
         @foreach($tickets as $key => $ticket)
-
             <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:912px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
                     style="background:#ffffff;background-color:#ffffff;width:100%;">
@@ -154,7 +151,6 @@
                     </tbody>
                 </table>
             </div>
-
             <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:912px;">
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
                     style="background:#ffffff;background-color:#ffffff;width:100%;">
@@ -229,7 +225,6 @@
             </div>
         @endforeach
     @endif
-
     <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:912px;">
         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
             style="background:#ffffff;background-color:#ffffff;width:100%;">

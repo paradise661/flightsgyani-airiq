@@ -5,7 +5,6 @@
             var instance = HSInputNumber.getInstance(this);
             instance.on("change", calculateSum1);
         });
-
         function calculateSum1() {
             var totalSum = 0;
             $(".r-hs-input-group").each(function() {
@@ -17,20 +16,17 @@
         }
     })
 </script>
-
 <section class="modify">
     <div class="container mx-auto">
         <div class="w-full">
             <div class="hs-accordion-group">
                 <div class="hs-accordion" id="modify-drop">
                     <div class="flex align-center gap-2 bg-primary-background px-2 flex-wrap">
-
                         <button
                             class="hs-accordion-toggle order-1 bg-secondary max-w-fit px-4 py-2 text-xs tracking-wider text-white font-medium hs-accordion-active:text-white inline-flex items-center gap-x-3 w-full text-start white focus:outline-none focus:text-white rounded-lg disabled:opacity-50 disabled:pointer-events-none"
                             aria-expanded="false" aria-controls="modify-accordion">
-                            Modifyyy
+                            Modify
                         </button>
-
                         <!-- modify accordion  -->
                         <div class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300 order-4 flex-grow"
                             id="modify-accordion " role="region" aria-labelledby="modify-drop">
@@ -361,7 +357,6 @@
                             </div>
                         </div>
                         </form>
-
                         <div class="order-3 col-span-2 ">
                             <button
                                 class=" h-full w-full py-2 px-3 flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-secondary text-white focus:outline-none disabled:opacity-50 disabled:pointer-events-none"
@@ -554,7 +549,6 @@
         </div>
     </div>
 </section>
-
 <script>
     $('#r-filter-oneway').click(function() {
         $('.twoway-block').css('opacity', '0.4')
@@ -562,7 +556,6 @@
     $('#r-filter-twoway').click(function() {
         $('.twoway-block').css('opacity', '1')
     })
-
     $('#btnModifyMobile').click(function(e) {
         Swal.fire({
             title: "Please Wait",
