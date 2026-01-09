@@ -268,7 +268,6 @@
                                    
                                 </div>
                             </section> -->
-
         @include('front.includes.searchresultpage.responsivemodifysearch')
         <section class="results mt-3 px-2">
             <div class="container mx-auto">

@@ -33,7 +33,7 @@
             <div class="w-full">
                 <div class="hs-accordion-group">
                     <div class="hs-accordion" id="modify-drop">
-                        <div class="flex align-center gap-2 bg-primary-background px-2 flex-wrap">
+                        <div class="flex align-center gap-2  px-2 flex-wrap">
                             <button
                                 class="hs-accordion-toggle bg-secondary order-1 max-w-fit px-4 py-2 text-sm tracking-wider text-white font-medium hs-accordion-active:text-white inline-flex items-center gap-x-3 w-full text-start white focus:outline-none focus:text-white rounded-lg disabled:opacity-50 disabled:pointer-events-none"
                                 aria-expanded="false" aria-controls="modify-accordion">

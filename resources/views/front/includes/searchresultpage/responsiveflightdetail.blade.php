@@ -80,7 +80,6 @@
                                   </div>
                               @endforeach
                           </div>
-
                           <div class="hs-accordion-group w-full">
                               <div class="hs-accordion w-full" id="details-drop">
                                   <div class="flex items-start justify-end gap-4 mt-2">
@@ -92,9 +91,9 @@
                                       <form class="book-form" method="post" action="{{ route('flight.book') }}">
                                           @csrf
                                           <input type="hidden" name="flight" value="{{ encrypt($flight) }}">
-                                          <button class="bg-secondary px-4 py-2 text-white rounded-lg">
-                                              Book Nows
-                                          </button>
+                                          <button class="border border-primary px-4 py-2 text-primary rounded-lg hover:bg-primary hover:text-white transition">
+                                            Book Now
+                                        </button>
                                       </form>
                                   </div>
                                   <!-- flight details  -->
