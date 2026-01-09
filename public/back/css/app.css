@@ -3902,7 +3902,6 @@ fieldset[disabled] .btn-default.focus {
 .open > .dropdown-toggle.btn-primary {
     background-image: none;
 }
-
 .btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
 fieldset[disabled] .btn-primary:hover,
@@ -3915,31 +3914,26 @@ fieldset[disabled] .btn-primary.focus {
     background-color: #337ab7;
     border-color: #2e6da4;
 }
-
 .btn-primary .badge {
     color: #337ab7;
     background-color: #fff;
 }
-
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
-
 .btn-success:focus,
 .btn-success.focus {
     color: #fff;
     background-color: #449d44;
     border-color: #255625;
 }
-
 .btn-success:hover {
     color: #fff;
     background-color: #449d44;
     border-color: #398439;
 }
-
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
@@ -3947,7 +3941,6 @@ fieldset[disabled] .btn-primary.focus {
     background-color: #449d44;
     border-color: #398439;
 }
-
 .btn-success:active:hover,
 .btn-success.active:hover,
 .open > .dropdown-toggle.btn-success:hover,
@@ -3961,13 +3954,11 @@ fieldset[disabled] .btn-primary.focus {
     background-color: #398439;
     border-color: #255625;
 }
-
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
     background-image: none;
 }
-
 .btn-success.disabled:hover,
 .btn-success[disabled]:hover,
 fieldset[disabled] .btn-success:hover,
@@ -3980,31 +3971,26 @@ fieldset[disabled] .btn-success.focus {
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
-
 .btn-success .badge {
     color: #5cb85c;
     background-color: #fff;
 }
-
 .btn-info {
     color: #fff;
     background-color: #5bc0de;
     border-color: #46b8da;
 }
-
 .btn-info:focus,
 .btn-info.focus {
     color: #fff;
     background-color: #31b0d5;
     border-color: #1b6d85;
 }
-
 .btn-info:hover {
     color: #fff;
     background-color: #31b0d5;
     border-color: #269abc;
 }
-
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
@@ -4012,7 +3998,6 @@ fieldset[disabled] .btn-success.focus {
     background-color: #31b0d5;
     border-color: #269abc;
 }
-
 .btn-info:active:hover,
 .btn-info.active:hover,
 .open > .dropdown-toggle.btn-info:hover,
@@ -4026,7 +4011,6 @@ fieldset[disabled] .btn-success.focus {
     background-color: #269abc;
     border-color: #1b6d85;
 }
-
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {

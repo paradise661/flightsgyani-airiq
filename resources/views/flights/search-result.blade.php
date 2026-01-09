@@ -7,17 +7,15 @@
     @php
         $removeAirlines = ['AC'];
     @endphp
-
     @include('front.includes.searchresultpage.modifysearch')
-
     {{-- Main Search Result Content --}}
-    <div class="page-content hidden md:block">
+    <div class="page-content hidden md:block  py-5 mt-5">
         <div class="container mx-auto">
             <div class="grid grid-cols-4 gap-4 mt-6">
                 <div class="filters-sidebar hidden md:block ">
                     <div class="drop-shadow-sm bg-secondary-lighter px-4 py-5 rounded-lg filter-call sticky top-0"
                         data-type="desktop">
-                        <h4 class="text-xl font-semibold tracking-widest px-5 mb-5 text-secondary">
+                        <h4 class="text-xl font-semibold tracking-widest px-5 mb-5 text-primary">
                             Filters
                         </h4>
                         <div class="hs-accordion-group mb-4">
@@ -80,7 +78,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="hs-accordion-group mb-4">
                             <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white border border-transparent rounded-xl"
                                 id="hs-active-bordered-heading-two">
@@ -247,7 +244,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="flight-detail col-span-4 md:col-span-3 gap-4 flex flex-col flight-data">
                     @forelse($flights as $key => $flight)
                         @if (!in_array($flight['airline'], $removeAirlines))
@@ -264,9 +260,7 @@
         </div>
     </div>
     {{-- ./Main Search Result Content --}}
-
     {{-- Responsive Search Result Content --}}
-
     <!-- Responsive Page Content  -->
     <div class="block md:hidden">
         <!-- <section class="heading">
@@ -296,9 +290,7 @@
     </div>
     <!-- Responsive Page Content  -->
     {{-- ./Responsive Search Result Content --}}
-
     {{-- ./New Design --}}
-
 @endsection
 @section('scripts')
     <script src="{{ asset('frontend/js/filter.js') }}"></script>

@@ -92,12 +92,11 @@
                                       <form class="book-form" method="post" action="{{ route('flight.book') }}">
                                           @csrf
                                           <input type="hidden" name="flight" value="{{ encrypt($flight) }}">
-                                          <button class="bg-primary px-4 py-2 text-white rounded-lg">
-                                              Book Now
+                                          <button class="bg-secondary px-4 py-2 text-white rounded-lg">
+                                              Book Nows
                                           </button>
                                       </form>
                                   </div>
-
                                   <!-- flight details  -->
                                   <div class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                                       id="details-accordion" role="region" aria-labelledby="details-drop">

@@ -28,14 +28,12 @@
             '-' .
             $destinationAirport->country;
     @endphp
-
-    <section class="modify">
+    <section class="modify pt-4 py-3">
         <div class="container mx-auto">
             <div class="w-full">
                 <div class="hs-accordion-group">
                     <div class="hs-accordion" id="modify-drop">
                         <div class="flex align-center gap-2 bg-primary-background px-2 flex-wrap">
-
                             <button
                                 class="hs-accordion-toggle bg-secondary order-1 max-w-fit px-4 py-2 text-sm tracking-wider text-white font-medium hs-accordion-active:text-white inline-flex items-center gap-x-3 w-full text-start white focus:outline-none focus:text-white rounded-lg disabled:opacity-50 disabled:pointer-events-none"
                                 aria-expanded="false" aria-controls="modify-accordion">
@@ -56,7 +54,6 @@
                                                         {{ is_null($search['return_date']) && !count($sectors) ? 'checked' : '' }} />
                                                     One Way
                                                 </label>
-
                                                 <label
                                                     class="flex px-3 py-1 w-full text-nowrap bg-white border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 has-[:checked]:bg-primary has-[:checked]:text-white"
                                                     for="r-filter-twoway">
@@ -73,7 +70,6 @@
                                                         {{ count($sectors) ? 'checked' : '' }} />
                                                     Multi City
                                                 </label>
-
                                             </div>
                                         </div>
                                         <div class="w-full gap-3 grid grid-cols-12 mt-2 one-two-container"
@@ -140,7 +136,6 @@
                                                 <label class="block text-sm font-medium mb-2"
                                                     for="filter-dep">Departure
                                                     Date</label>
-
                                                 <div class="relative">
                                                     <input
                                                         class="py-3 px-4 ps-11 block w-full border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-primary focus:ring-primary disabled:opacity-50 disabled:pointer-events-none"

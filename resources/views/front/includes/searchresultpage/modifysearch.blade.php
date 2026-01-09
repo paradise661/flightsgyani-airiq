@@ -31,15 +31,15 @@
 
     <div class="filters-tab hidden md:block">
         <div class="container mx-auto">
-            <div class="hs-accordion-group bg-secondary-lighter ps-2 pt-1 pb-1 mt-3 shadow-md">
+            <div class="hs-accordion-group bg-secondary-lighter ps-2 p-5 mt-3 shadow-md rounded-md">
                 <div class="hs-accordion" id="hs-basic-with-title-and-arrow-stretched-heading-three">
                     <div class="hs-accordion-toggle hs-accordion-active:primary cursor-pointer  flex items-center text-xl font-normal justify-between gap-x-3 w-full text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none "
                         aria-expanded="false" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
                         <div class="min-w-fit flex flex-col justify-between gap-2">
                             Flight Search: {{ $search['departure'] }} - {{ $search['destination'] }}
                             <div
-                                class="bg-secondary text-center px-4 py-2 hs-accordion-active:hidden block text-white text-base rounded-md">
-                                Modify</div>
+                                class="bg-primary text-center px-4 py-2 hs-accordion-active:hidden block text-white text-base rounded-md">
+                                Modifyy</div>
                             <div
                                 class="bg-primary text-center px-4 py-2 hs-accordion-active:block hidden text-white text-base rounded-md">
                                 Modify</div>

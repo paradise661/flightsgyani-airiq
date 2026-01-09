@@ -33,14 +33,15 @@
 
                 @guest
                     <a href="{{ route('login') }}"
-                        class="hidden md:inline-flex px-4 py-2 text-sm bg-secondary border border-white text-white rounded-full hover:bg-primary hover:text-white transition">
+                        class="hidden md:inline-flex px-4 py-2 text-sm bg-primary border border-white text-white rounded-full hover:bg-primary hover:text-white transition">
                         Sign In
                     </a>
 
                     <a href="{{ route('agent.login') }}"
-                        class="hidden md:inline-flex px-5 py-2 text-sm font-semibold rounded-full bg-white text-[#1567ae] hover:opacity-90 transition">
-                        Agent Login
-                    </a>
+                    class="hidden md:inline-flex px-5 py-2 text-sm font-semibold rounded-full bg-white text-secondary border border-secondary hover:opacity-90 transition">
+                     Agent Login
+                 </a>
+                 
                 @else
                     @if (Auth::user()->user_type == 'ADMIN')
                         <a href="{{ route('v2.admin.dashboard') }}"

@@ -115,8 +115,8 @@
                                       <form class="book-form" method="post" action="{{ route('flight.book') }}">
                                           @csrf
                                           <input type="hidden" name="flight" value="{{ encrypt($flight) }}">
-                                          <button class="g-button-primary" type="submit">
-                                              Book Now
+                                          <button class="g-button-primary1" type="submit">
+                                              Book Nows
                                           </button>
                                       </form>
                                   </div>

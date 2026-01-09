@@ -50,7 +50,7 @@
         /* ----------------------------------- */
         /* secondary colors */
         /* ----------------------------------- */
-        --secondary-lighter: 231 246 237; /* #dde3ff */
+        --secondary-lighter: 218 233 247; /* #dae9f7 */
         --secondary-default: 245 134 22; /* #f58616 */
         --secondary-foreground: 255 255 255; /* #ffffff */
         --secondary-background: 31 34 39;
@@ -145,9 +145,18 @@
 }
 
 /* Buttons  */
-.g-button-primary {
+/* .g-button-primary {
     background: linear-gradient(180deg, #005294 0%, #4e8cbe 100%);
     flex-grow: 0;
+} */
+.g-button-primary {
+    /* background: linear-gradient(180deg, #005294 0%, #4e8cbe 100%); */
+    border: 1px solid #115f9d !important;
+    color: #115f9d !important;
+    flex-grow: 0;
+}
+.g-button-primary1{
+   background-color: #1466ad; 
 }
 .g-button-secondary {
     background: linear-gradient(180deg, #f11330 0%, #c0272e 100%);
@@ -270,7 +279,7 @@
     @apply h-[420px] overflow-hidden overflow-y-scroll   [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-primary [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:rounded-full;
 }
 .detail-wrap {
-    @apply shadow-sm py-4 bg-secondary-lighter;
+    @apply shadow-lg py-4 rounded-md bg-white;
 }
 .detail-wrap .logo-sec {
     @apply flex flex-col gap-2 items-start;
