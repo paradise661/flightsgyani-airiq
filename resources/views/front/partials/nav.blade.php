@@ -5,7 +5,6 @@
             request()->is('flight/passenger-details') ||
             Route::is('flight.payment')) md:absolute  @endif
     w-full z-50">
-
     <nav class="  px-6 py-2  bg-primary lg:bg-transparent ">
         <div
             class="  container mx-auto  flex items-center justify-between gap-6">
@@ -84,7 +83,6 @@
            
         </div>
     </nav>
-
     <!-- MOBILE OFFCANVAS (UNCHANGED) -->
     <div id="hs-offcanvas-right"
         class="hs-overlay hs-overlay-open:translate-x-0 hidden translate-x-full fixed top-0 end-0 w-72 h-full bg-white shadow-xl z-50 transition-all">

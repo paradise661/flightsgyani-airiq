@@ -39,7 +39,7 @@
                             Flight Search: {{ $search['departure'] }} - {{ $search['destination'] }}
                             <div
                                 class="bg-primary text-center px-4 py-2 hs-accordion-active:hidden block text-white text-base rounded-md">
-                                Modifyy</div>
+                                Modify</div>
                             <div
                                 class="bg-primary text-center px-4 py-2 hs-accordion-active:block hidden text-white text-base rounded-md">
                                 Modify</div>
@@ -832,9 +832,9 @@
                                     </div>
 
                                     <button
-                                        class="primary-intl-search mt-3 px-7 py-3 text-sm font-medium rounded-lg border border-transparent g-button-secondary text-white hover:primary focus:outline-none focus:primary disabled:opacity-50 disabled:pointer-events-none"
+                                        class=" bg-secondary primary-intl-search mt-3 px-7 py-3 text-sm font-medium rounded-lg border border-transparent  text-white hover:primary focus:outline-none focus:primary disabled:opacity-50 disabled:pointer-events-none"
                                         type="submit">
-                                        Modify
+                                        Modifyyy
                                     </button>
                                 </div>
                             </form>

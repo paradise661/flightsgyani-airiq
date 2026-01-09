@@ -28,7 +28,7 @@
                         <button
                             class="hs-accordion-toggle order-1 bg-secondary max-w-fit px-4 py-2 text-xs tracking-wider text-white font-medium hs-accordion-active:text-white inline-flex items-center gap-x-3 w-full text-start white focus:outline-none focus:text-white rounded-lg disabled:opacity-50 disabled:pointer-events-none"
                             aria-expanded="false" aria-controls="modify-accordion">
-                            Modify
+                            Modifyyy
                         </button>
 
                         <!-- modify accordion  -->

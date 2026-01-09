@@ -8,7 +8,6 @@
                     <div class="text-center">
                         <h1 class="block text-2xl font-bold text-gray-800">Agent Login</h1>
                     </div>
-
                     <div class="mt-5">
                         @include('messages')
                         <!-- Form -->
@@ -37,7 +36,6 @@
                                     @enderror
                                 </div>
                                 <!-- End Form Group -->
-
                                 <!-- Form Group -->
                                 <div>
                                     <div class="flex justify-between items-center">
