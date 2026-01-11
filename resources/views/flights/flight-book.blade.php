@@ -58,7 +58,6 @@ Passenger Details
     </div>
 </div>
 <!-- /Banner  -->
-
 @foreach ($flights['detail'] as $flightKey => $flightDetail)
 <!-- Flight Details Heading Accordion  -->
 <div class="flight-details-accordion mt-4 md:mt-8">
@@ -223,7 +222,6 @@ Passenger Details
 </div>
 <!-- / Flight Details Heading Accordion  -->
 @endforeach
-
 <!-- Page Layout  -->
 <section class="traveller-details mt-4">
     <div class="container mx-auto">
@@ -580,7 +578,6 @@ Passenger Details
     </form>
     </div>
 </section>
-
 @if (Auth::check() && Auth::user()->user_type == 'AGENT')
 <div class="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50 hidden" id="modal">
     <!-- Modal Content -->

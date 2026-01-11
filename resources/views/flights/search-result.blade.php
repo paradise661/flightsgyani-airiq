@@ -18,8 +18,8 @@
                         <h4 class="text-xl font-semibold tracking-widest px-5 mb-5 text-primary">
                             Filters
                         </h4>
-                        <div class="hs-accordion-group mb-4">
-                            <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white border border-transparent rounded-xl"
+                        <div class="hs-accordion-group mb-4 ">
+                            <div class="hs-accordion hs-accordion-active:border-primary active bg-white border border-primary rounded-xl"
                                 id="hs-active-bordered-heading-two">
                                 <button
                                     class="hs-accordion-toggle hs-accordion-active:text-primary inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                         <div class="hs-accordion-group mb-4">
-                            <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white border border-transparent rounded-xl"
+                            <div class="hs-accordion hs-accordion-active:border-primary active bg-white border border-primary rounded-xl"
                                 id="hs-active-bordered-heading-two">
                                 <button
                                     class="hs-accordion-toggle hs-accordion-active:text-primary text-base inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <div class="hs-accordion-group mb-4">
-                            <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white border border-transparent rounded-xl"
+                            <div class="hs-accordion hs-accordion-active:border-primary active bg-white border border-primary rounded-xl"
                                 id="hs-active-bordered-heading-two">
                                 <button
                                     class="hs-accordion-toggle hs-accordion-active:text-primary inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
@@ -187,7 +187,7 @@
                             </div>
                         </div>
                         <div class="hs-accordion-group mb-4">
-                            <div class="hs-accordion hs-accordion-active:border-gray-200 active bg-white border border-transparent rounded-xl"
+                            <div class="hs-accordion hs-accordion-active:border-primary active bg-white border border-primary rounded-xl"
                                 id="hs-active-bordered-heading-two">
                                 <button
                                     class="hs-accordion-toggle hs-accordion-active:text-primary inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
